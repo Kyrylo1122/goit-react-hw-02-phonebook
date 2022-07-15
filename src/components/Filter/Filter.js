@@ -8,3 +8,7 @@ export const Filter = ({ changeFilter }) => {
     </>
   );
 };
+
+Filter.propTypes = {
+  changeFilter: PropTypes.func.isRequired,
+};
